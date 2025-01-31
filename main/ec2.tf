@@ -24,5 +24,6 @@ module "rds" {
     db_name = var.db_name
     vpc_security_group_ids = module.sg.allow_rds
     subnet_id= module.vpc.private_subnet_id
+    private_subnet_cidr=module.vpc.private_subnet_id
   
 }
