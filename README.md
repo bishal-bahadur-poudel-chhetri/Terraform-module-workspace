@@ -8,7 +8,6 @@ This Terraform configuration provisions **public and private servers** along wit
 - **RDS in a Private Subnet**: Restricts database access from external networks.
 - **Modular Approach**: Uses Terraform modules for reusability and maintainability.
 - **Multi-AZ RDS Deployment**: Ensures high availability by spreading subnets across different availability zones.
-- **State Management**: Terraform remote state handling for better collaboration.
 
 ## Prerequisites
 Before running this Terraform script, ensure you have the following:
